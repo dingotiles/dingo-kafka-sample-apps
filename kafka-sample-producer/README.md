@@ -23,4 +23,4 @@ This is a spring boot sample application that makes use of the kafka-connector a
   cf logs kafka-sample-producer
   ```  
 
-3. The producer app will send messages every 10 seconds and the logs will reflect that. Look at the [README](https://github.com/cf-platform-eng/kafka-service-broker/tree/master/kafka-sample-consumer) for kafka-sample-consumer to set up an app to subscribe to the messages published by kafka-sample-producer. It will work as long as they are both bound to the _same_ kafka service instance.  
+3. The producer app will send messages every 10 seconds and the logs will reflect that. Look at the [README](https://github.com/dingotiles/dingo-kafka-sample-apps/tree/master/kafka-sample-consumer) for kafka-sample-consumer to set up an app to subscribe to the messages published by kafka-sample-producer. It will work as long as they are both bound to the _same_ kafka service instance.  
