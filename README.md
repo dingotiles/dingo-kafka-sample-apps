@@ -6,6 +6,14 @@ This repository contains sample applications: a producer of events to a Kafka to
 
 The instructions assume that you are deploying to Pivotal Cloud Foundry with Dingo Kafka already installed by your platform operator.
 
+## Preparation
+
+```bash
+git clone https://github.com/dingotiles/dingo-kafka-sample-apps.git
+cd dingo-kafka-sample-apps
+mvn -Dmaven.test.skip=true install
+```
+
 ## Sub-projects
 
 This project includes the following modules. See their respective READMEs for more information.

@@ -7,8 +7,8 @@ This is a Spring Boot sample application that makes use of the `kafka-connector`
 
   ```bash
   git clone https://github.com/dingotiles/dingo-kafka-sample-apps.git
-  cd kafka-service-broker
-  mvn clean install
+  cd dingo-kafka-sample-apps
+  mvn -Dmaven.test.skip=true install
   ```
 
 1. Deploy kafka-sample-consumer. There is nothing to configure, other than maybe changing the name of the services in the manifest file, because the name should match the name you give to the kafka-service created.
