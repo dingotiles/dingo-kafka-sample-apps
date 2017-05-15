@@ -4,6 +4,7 @@ applications:
   memory: 256M
   instances: 1
   path: target/kafka-sample-consumer-1.0.0.jar
+  no-route: true
   services: [ kafka-service ]
   env:
     SPRING_PROFILES_ACTIVE: cloud

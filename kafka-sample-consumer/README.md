@@ -1,11 +1,12 @@
 # kafka-sample-consumer
-This is a spring boot sample application that makes use of the kafka-connector and kafka-broker to bind to a kafka service and consume messages.
+
+This is a Spring Boot sample application that makes use of the `kafka-connector` and Dingo Kakfa to bind to a Kafka service and consume messages.
 
 ## Using kafka-sample-consumer
 1. Git checkout and build the modules (if you have not already done so):
 
   ```bash
-  git clone https://github.com/dingotiles/kafka-service-broker.git
+  git clone https://github.com/dingotiles/dingo-kafka-sample-apps.git
   cd kafka-service-broker
   mvn clean install
   ```
